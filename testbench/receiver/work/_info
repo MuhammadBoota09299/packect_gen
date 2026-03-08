@@ -1,0 +1,321 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/boota/OneDrive/Desktop/tri_mode_ethernet_mac_0_axi_pat_gen/testbench/receiver
+T_opt
+!s110 1772986838
+VefL_fz5YCi`AidFJ0WNU91
+04 11 4 work receiver_tb fast 0
+=1-e4a7a0f02a3a-69ada1d6-bc-84
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2024.1;79
+Xdefines
+2../../defines/defines.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1772986836
+!i10b 1
+!s100 EaeSgL]k[Co3@6LM3;MAJ3
+IK6;21P>>XEXgfIUQHzkm83
+S1
+R1
+w1771430792
+8../../defines/defines.sv
+F../../defines/defines.sv
+!i122 0
+Z5 L0 1 0
+VK6;21P>>XEXgfIUQHzkm83
+Z6 OL;L;2024.1;79
+r1
+!s85 0
+31
+!s108 1772986835.000000
+!s107 ../../defines/defines.sv|
+!s90 -work|work|-sv|-stats=none|../../defines/defines.sv|
+!i113 0
+Z7 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vheader_reg
+Z8 2../../rtl/receiver/header_reg.sv|../../rtl/receiver/receiver.sv|../../rtl/receiver/rx_buffer.sv|../../rtl/receiver/rx_controller.sv|../../rtl/receiver/rx_counter.sv
+R3
+Z9 DXx4 work 7 defines 0 22 K6;21P>>XEXgfIUQHzkm83
+DXx4 work 18 header_reg_sv_unit 0 22 82d4ZiK4`Nh5WK@gJk<j33
+R4
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 F@_FLH3jQ85cC2BUd@2N^3
+IF=z^DRC_N42HB7QE9zQE;1
+!s105 header_reg_sv_unit
+S1
+R1
+Z11 w1771431259
+Z12 8../../rtl/receiver/header_reg.sv
+Z13 F../../rtl/receiver/header_reg.sv
+!i122 1
+L0 2 25
+R6
+31
+Z14 !s108 1772986836.000000
+Z15 !s107 ../../rtl/receiver/rx_counter.sv|../../rtl/receiver/rx_controller.sv|../../rtl/receiver/rx_buffer.sv|../../rtl/receiver/receiver.sv|../../rtl/receiver/header_reg.sv|
+Z16 !s90 -work|work|-sv|-stats=none|../../rtl/receiver/header_reg.sv|../../rtl/receiver/receiver.sv|../../rtl/receiver/rx_buffer.sv|../../rtl/receiver/rx_controller.sv|../../rtl/receiver/rx_counter.sv|
+!i113 0
+R7
+R2
+Xheader_reg_sv_unit
+R8
+R3
+R9
+R4
+V82d4ZiK4`Nh5WK@gJk<j33
+r1
+!s85 0
+!i10b 1
+!s100 dko]CZ8[[zc6hB<c6kf<e0
+I82d4ZiK4`Nh5WK@gJk<j33
+!i103 1
+S1
+R1
+R11
+R12
+R13
+!i122 1
+R5
+R6
+31
+R14
+R15
+R16
+!i113 0
+R7
+R2
+vreceiver
+R8
+R3
+R9
+DXx4 work 16 receiver_sv_unit 0 22 BenD1NJXFVKXPhKXT^AOU1
+R4
+R10
+r1
+!s85 0
+!i10b 1
+!s100 d5]7ORNXl4KPKd5:<UPbS1
+IM5j4n8UR08aP=CVE3oF[H3
+!s105 receiver_sv_unit
+S1
+R1
+Z17 w1771471290
+Z18 8../../rtl/receiver/receiver.sv
+Z19 F../../rtl/receiver/receiver.sv
+!i122 1
+L0 2 38
+R6
+31
+R14
+R15
+R16
+!i113 0
+R7
+R2
+Xreceiver_sv_unit
+R8
+R3
+R9
+R4
+VBenD1NJXFVKXPhKXT^AOU1
+r1
+!s85 0
+!i10b 1
+!s100 mCj0o]@Ljhb:DB`2RSHk?0
+IBenD1NJXFVKXPhKXT^AOU1
+!i103 1
+S1
+R1
+R17
+R18
+R19
+!i122 1
+R5
+R6
+31
+R14
+R15
+R16
+!i113 0
+R7
+R2
+vreceiver_tb
+Z20 2../../testbench/receiver/receiver_tb.sv
+R3
+R9
+DXx4 work 19 receiver_tb_sv_unit 0 22 QLE=hI6Kh`F:3nWENk^Cj3
+R4
+R10
+r1
+!s85 0
+!i10b 1
+!s100 NbVkSN0kekb=iB^_g6>7f0
+IZ^kR]Tn?@Tn`40l5JXSJh1
+!s105 receiver_tb_sv_unit
+S1
+R1
+Z21 w1772986817
+Z22 8../../testbench/receiver/receiver_tb.sv
+Z23 F../../testbench/receiver/receiver_tb.sv
+!i122 2
+L0 3 103
+R6
+31
+R14
+Z24 !s107 ../../testbench/receiver/receiver_tb.sv|
+Z25 !s90 -work|work|-sv|-stats=none|../../testbench/receiver/receiver_tb.sv|
+!i113 0
+R7
+R2
+Xreceiver_tb_sv_unit
+R20
+R3
+R9
+R4
+VQLE=hI6Kh`F:3nWENk^Cj3
+r1
+!s85 0
+!i10b 1
+!s100 _XY:=J@P6kCbjjISDC=Cm2
+IQLE=hI6Kh`F:3nWENk^Cj3
+!i103 1
+S1
+R1
+R21
+R22
+R23
+!i122 2
+R5
+R6
+31
+R14
+R24
+R25
+!i113 0
+R7
+R2
+vrx_buffer
+R8
+R3
+R4
+!i10b 1
+!s100 b8]?Rc?fbLCz`M7J]]jzl2
+Izja9aA2;zT<<AORoOPD091
+S1
+R1
+w1771454888
+8../../rtl/receiver/rx_buffer.sv
+F../../rtl/receiver/rx_buffer.sv
+!i122 1
+L0 1 64
+R10
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R7
+R2
+vrx_controller
+R8
+R3
+R9
+DXx4 work 21 rx_controller_sv_unit 0 22 5]1Nd2lZoZ5[dC_M1<]kf2
+R4
+R10
+r1
+!s85 0
+!i10b 1
+!s100 OmaXmeiXN`4;;`h]n;:o?3
+Ia6NRB2zoMglZB6VINa]XV1
+!s105 rx_controller_sv_unit
+S1
+R1
+Z26 w1771471478
+Z27 8../../rtl/receiver/rx_controller.sv
+Z28 F../../rtl/receiver/rx_controller.sv
+!i122 1
+L0 2 85
+R6
+31
+R14
+R15
+R16
+!i113 0
+R7
+R2
+Xrx_controller_sv_unit
+R8
+R3
+R9
+R4
+V5]1Nd2lZoZ5[dC_M1<]kf2
+r1
+!s85 0
+!i10b 1
+!s100 9`ZbY;`LMnf4R1;14dHUm0
+I5]1Nd2lZoZ5[dC_M1<]kf2
+!i103 1
+S1
+R1
+R26
+R27
+R28
+!i122 1
+R5
+R6
+31
+R14
+R15
+R16
+!i113 0
+R7
+R2
+vrx_counter
+R8
+R3
+R4
+!i10b 1
+!s100 hDHAX<70YmIQz<_ciS9TY1
+IaocbdDI^U9i^F:Y9C@@`Z2
+S1
+R1
+w1771455085
+8../../rtl/receiver/rx_counter.sv
+F../../rtl/receiver/rx_counter.sv
+!i122 1
+L0 1 30
+R10
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R7
+R2

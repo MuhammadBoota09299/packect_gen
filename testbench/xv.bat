@@ -1,13 +1,13 @@
 @echo off
-del wlf*
+del *.wlf
 rmdir /s /q work
-vlog -work work   -sv -stats=none C:/Users/boota/OneDrive/Desktop/packect_gen/defines/*.sv
+vlog -work work   -sv -stats=none ../defines/*.sv
 if %ERRORLEVEL% GEQ 1 pause /B 1
-vlog -work work   -sv -stats=none *.sv
+vlog -work work   -sv -stats=none ../testbench/*.sv
 if %ERRORLEVEL% GEQ 1 pause /B 1
-vlog -work work   -sv -stats=none C:/Users/boota/OneDrive/Desktop/packect_gen/rtl/transmitter/rtl/*.sv 
+vlog -work work   -sv -stats=none ../rtl/transmitter/*.sv 
 if %ERRORLEVEL% GEQ 1 pause /B 1 
-vlog -work work   -sv -stats=none C:/Users/boota/OneDrive/Desktop/packect_gen/rtl/receiver/rtl/*.sv 
+vlog -work work   -sv -stats=none ../rtl/receiver/*.sv 
 if %ERRORLEVEL% GEQ 1 pause /B 1 
-vlog -work work   -sv -stats=none C:/Users/boota/OneDrive/Desktop/packect_gen/rtl/*.sv 
+vlog -work work   -sv -stats=none ../rtl/*.sv 
 if %ERRORLEVEL% GEQ 1 pause /B 1

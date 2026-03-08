@@ -1,0 +1,47 @@
+# vsim -c work.transmitter_tb -do "run -all; quit" 
+# Start time: 21:22:34 on Mar 08,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: ../../rtl/transmitter/address_reg.sv(4): (vopt-13314) Defaulting port 'header_addr' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../../rtl/transmitter/payload_len_cal.sv(3): (vopt-13314) Defaulting port 'number_of_bytes' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../../rtl/transmitter/tx_counter.sv(3): (vopt-13314) Defaulting port 'payload_len' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../../rtl/transmitter/shift_reg.sv(3): (vopt-13314) Defaulting port 'tx_header' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../../rtl/transmitter/transmitter.sv(4): (vopt-13314) Defaulting port 'header_addr' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: ../../rtl/transmitter/transmitter.sv(5): (vopt-13314) Defaulting port 'number_of_bytes' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=6.
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.defines(fast)
+# Loading work.shift_reg_sv_unit(fast)
+# Loading work.controller_sv_unit(fast)
+# Loading work.address_reg_sv_unit(fast)
+# Loading work.transmitter_sv_unit(fast)
+# Loading work.transmitter_tb_sv_unit(fast)
+# Loading work.transmitter_tb(fast)
+# run -all
+# Time: 735, Data: cc, Last: 1
+# Time: 1415, Data: cc, Last: 1
+# Time: 2095, Data: cc, Last: 1
+# Time: 2775, Data: cc, Last: 1
+# Time: 3455, Data: cc, Last: 1
+# ** Note: $stop    : ../../testbench/transmitter/transmitter_tb.sv(78)
+#    Time: 3455 ns  Iteration: 1  Instance: /transmitter_tb
+# Break at ../../testbench/transmitter/transmitter_tb.sv line 78
+# Stopped at ../../testbench/transmitter/transmitter_tb.sv line 78
+#  quit
+# End time: 21:22:35 on Mar 08,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 6
