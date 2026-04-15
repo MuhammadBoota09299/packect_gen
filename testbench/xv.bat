@@ -1,7 +1,7 @@
 @echo off
 del *.wlf
 rmdir /s /q work
-vlog -work work   -sv -stats=none ../defines/*.sv
+vlog -work work   -sv -stats=none ../rtl/defines/*.sv
 if %ERRORLEVEL% GEQ 1 pause /B 1
 vlog -work work   -sv -stats=none ../testbench/*.sv
 if %ERRORLEVEL% GEQ 1 pause /B 1

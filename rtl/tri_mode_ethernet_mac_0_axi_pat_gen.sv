@@ -5,8 +5,8 @@
 
 import defines::*;
 module tri_mode_ethernet_mac_0_axi_pat_gen #(
-   parameter               DEST_ADDR      = 48'hda0102030405,
-   parameter               SRC_ADDR       = 48'h5a0102030405,
+   parameter               DEST_ADDR      = 48'hda0203040506,
+   parameter               SRC_ADDR       = 48'h5a0203040506,
    parameter               MAX_SIZE       = 16'd500,
    parameter               MIN_SIZE       = 16'd64,
    parameter               ENABLE_VLAN    = 1'b0,
@@ -15,6 +15,8 @@ module tri_mode_ethernet_mac_0_axi_pat_gen #(
 )(
    input logic               clk,
    input logic               rst_n,
+
+   input logic              enable,
 
    input logic [7:0]        r_data,
    input logic              r_valid,

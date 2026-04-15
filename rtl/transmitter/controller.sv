@@ -66,7 +66,7 @@ always_comb begin
     tx_tvalid_sel = 1'b0;
     shift_wr = 0;
     shift_en = 0;
-    btx_rd_en = 0;  
+    btx_rd_en = 0;
 
     case (current_state)
         IDLE: begin

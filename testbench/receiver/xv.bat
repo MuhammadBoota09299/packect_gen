@@ -2,7 +2,7 @@
 del *.wlf
 rmdir /s /q work
 
-vlog -work work -sv -stats=none ../../defines/*.sv
+vlog -work work -sv -stats=none ../../rtl/defines/*.sv
 if %ERRORLEVEL% GEQ 1 pause & exit /B 1
 
 vlog -work work -sv -stats=none ../../rtl/receiver/*.sv

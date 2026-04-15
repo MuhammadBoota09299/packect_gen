@@ -8,6 +8,7 @@ module receiver_tb;
   logic r_ready, brx_empty;
   logic [7:0] r_data,rx_data;
   logic rx_header_valid;
+  logic enable;
   header rx_header;
   
   // Instantiate DUT
@@ -24,9 +25,11 @@ module receiver_tb;
     @(posedge clk);
     rx_axis_tdata = data;
     r_valid = 1;
+    enable=1;
     r_last = last;
     wait(r_ready);
     @(posedge clk);
+    enable=0;
     r_valid = 0;
     r_last = 0;
   endtask

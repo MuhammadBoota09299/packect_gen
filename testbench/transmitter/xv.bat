@@ -5,7 +5,7 @@ rmdir /s /q work
 
 vlib work
 
-vlog -work work -sv -stats=none ../../defines/*.sv
+vlog -work work -sv -stats=none ../../rtl/defines/*.sv
 if %ERRORLEVEL% GEQ 1 pause & exit /b 1
 
 vlog -work work -sv -stats=none ../../testbench/transmitter/*.sv

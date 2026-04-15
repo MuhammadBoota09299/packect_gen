@@ -13,6 +13,7 @@ module transmitter_tb ();
     logic btx_full;
     logic tvalid;
     logic tlast;
+    logic pat_gen_sel;
     transmitter transmitter_inst (
         .clk(clk),
         .rst_n(rst_n),

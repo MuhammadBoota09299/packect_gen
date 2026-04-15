@@ -12,10 +12,10 @@ Z0 !s99 nomlopt
 cModel Technology
 Z1 dC:/Users/boota/OneDrive/Desktop/tri_mode_ethernet_mac_0_axi_pat_gen/testbench
 T_opt
-!s110 1772984761
-VfD3MW2D<PAhOgD<eS;Tg90
+!s110 1773186173
+VcFY;6S83^_>>K[ECQHVSJ3
 04 38 4 work tri_mode_ethernet_mac_0_axi_pat_gen_tb fast 0
-=1-e4a7a0f02a3a-69ad99b8-199-3eec
+=1-e4a7a0f02a3a-69b0ac7c-214-1628
 R0
 !s12f OEM100
 !s12b OEM100
@@ -28,7 +28,7 @@ Xaddress_reg_sv_unit
 Z3 2../rtl/transmitter/address_reg.sv|../rtl/transmitter/controller.sv|../rtl/transmitter/payload_len_cal.sv|../rtl/transmitter/shift_reg.sv|../rtl/transmitter/transmitter.sv|../rtl/transmitter/tx_buffer.sv|../rtl/transmitter/tx_counter.sv
 Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
 Z5 DXx4 work 7 defines 0 22 X67]7X9:P;BX9669S@X>62
-Z6 !s110 1772984757
+Z6 !s110 1773186168
 Vc=dBH<H33PR<;DBh?SAkM2
 r1
 !s85 0
@@ -45,7 +45,7 @@ Z9 F../rtl/transmitter/address_reg.sv
 Z10 L0 1 0
 Z11 OL;L;2024.1;79
 31
-Z12 !s108 1772984757.000000
+Z12 !s108 1773186168.000000
 Z13 !s107 ../rtl/transmitter/tx_counter.sv|../rtl/transmitter/tx_buffer.sv|../rtl/transmitter/transmitter.sv|../rtl/transmitter/shift_reg.sv|../rtl/transmitter/payload_len_cal.sv|../rtl/transmitter/controller.sv|../rtl/transmitter/address_reg.sv|
 Z14 !s90 -work|work|-sv|-stats=none|../rtl/transmitter/address_reg.sv|../rtl/transmitter/controller.sv|../rtl/transmitter/payload_len_cal.sv|../rtl/transmitter/shift_reg.sv|../rtl/transmitter/transmitter.sv|../rtl/transmitter/tx_buffer.sv|../rtl/transmitter/tx_counter.sv|
 !i113 0
@@ -55,22 +55,22 @@ vcontroller
 R3
 R4
 R5
-DXx4 work 18 controller_sv_unit 0 22 Z8]E=OBMhhdzmEiko1]5e1
+DXx4 work 18 controller_sv_unit 0 22 MD`7m6eA3z`iZ<L<Cj:Co1
 R6
 Z16 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
 !i10b 1
-!s100 ?EC0k7@oQjZC5LUz^Fc?f1
-I_Aob_[7kMoF_5B@iUX:oA0
+!s100 >V0?4N_VMenbkdH9C:G703
+Ic6AlOEJg^Y:mZgWT=>TjA2
 !s105 controller_sv_unit
 S1
 R1
-Z17 w1771476137
+Z17 w1773185860
 Z18 8../rtl/transmitter/controller.sv
 Z19 F../rtl/transmitter/controller.sv
 !i122 2
-L0 2 120
+L0 2 124
 R11
 31
 R12
@@ -84,12 +84,12 @@ R3
 R4
 R5
 R6
-VZ8]E=OBMhhdzmEiko1]5e1
+VMD`7m6eA3z`iZ<L<Cj:Co1
 r1
 !s85 0
 !i10b 1
-!s100 QF7B42d7_cnY>nUBjOC3H0
-IZ8]E=OBMhhdzmEiko1]5e1
+!s100 kdOg<YH;C7;P:=D>li5d>0
+IMD`7m6eA3z`iZ<L<Cj:Co1
 !i103 1
 S1
 R1
@@ -125,7 +125,7 @@ R11
 r1
 !s85 0
 31
-R12
+!s108 1773186167.000000
 !s107 ../defines/defines.sv|
 !s90 -work|work|-sv|-stats=none|../defines/defines.sv|
 !i113 0
@@ -134,7 +134,7 @@ R2
 vdut
 Z20 2../rtl/dut.sv|../rtl/tri_mode_ethernet_mac_0_axi_pat_gen.sv
 R4
-Z21 !s110 1772984758
+Z21 !s110 1773186169
 !i10b 1
 !s100 MjlC84QJNfY`h70k:Q9a80
 I529L^i_>cFGTi@nk470I:2
@@ -150,18 +150,18 @@ R11
 r1
 !s85 0
 31
-Z23 !s108 1772984758.000000
-Z24 !s107 ../rtl/tri_mode_ethernet_mac_0_axi_pat_gen.sv|../rtl/dut.sv|
-Z25 !s90 -work|work|-sv|-stats=none|../rtl/dut.sv|../rtl/tri_mode_ethernet_mac_0_axi_pat_gen.sv|
+R12
+Z23 !s107 ../rtl/tri_mode_ethernet_mac_0_axi_pat_gen.sv|../rtl/dut.sv|
+Z24 !s90 -work|work|-sv|-stats=none|../rtl/dut.sv|../rtl/tri_mode_ethernet_mac_0_axi_pat_gen.sv|
 !i113 0
 R15
 R2
 vheader_reg
-Z26 2../rtl/receiver/header_reg.sv|../rtl/receiver/receiver.sv|../rtl/receiver/rx_buffer.sv|../rtl/receiver/rx_controller.sv|../rtl/receiver/rx_counter.sv
+Z25 2../rtl/receiver/header_reg.sv|../rtl/receiver/receiver.sv|../rtl/receiver/rx_buffer.sv|../rtl/receiver/rx_controller.sv|../rtl/receiver/rx_counter.sv
 R4
 R5
 DXx4 work 18 header_reg_sv_unit 0 22 NSz0WBT=D4378D7kY]hNZ1
-R21
+R6
 R16
 r1
 !s85 0
@@ -171,24 +171,24 @@ IK9F3b>2YTE`P4k2fVhW9e3
 !s105 header_reg_sv_unit
 S1
 R1
-Z27 w1771431259
-Z28 8../rtl/receiver/header_reg.sv
-Z29 F../rtl/receiver/header_reg.sv
+Z26 w1771431259
+Z27 8../rtl/receiver/header_reg.sv
+Z28 F../rtl/receiver/header_reg.sv
 !i122 3
 L0 2 25
 R11
 31
-R23
-Z30 !s107 ../rtl/receiver/rx_counter.sv|../rtl/receiver/rx_controller.sv|../rtl/receiver/rx_buffer.sv|../rtl/receiver/receiver.sv|../rtl/receiver/header_reg.sv|
-Z31 !s90 -work|work|-sv|-stats=none|../rtl/receiver/header_reg.sv|../rtl/receiver/receiver.sv|../rtl/receiver/rx_buffer.sv|../rtl/receiver/rx_controller.sv|../rtl/receiver/rx_counter.sv|
+R12
+Z29 !s107 ../rtl/receiver/rx_counter.sv|../rtl/receiver/rx_controller.sv|../rtl/receiver/rx_buffer.sv|../rtl/receiver/receiver.sv|../rtl/receiver/header_reg.sv|
+Z30 !s90 -work|work|-sv|-stats=none|../rtl/receiver/header_reg.sv|../rtl/receiver/receiver.sv|../rtl/receiver/rx_buffer.sv|../rtl/receiver/rx_controller.sv|../rtl/receiver/rx_counter.sv|
 !i113 0
 R15
 R2
 Xheader_reg_sv_unit
-R26
+R25
 R4
 R5
-R21
+R6
 VNSz0WBT=D4378D7kY]hNZ1
 r1
 !s85 0
@@ -198,16 +198,16 @@ INSz0WBT=D4378D7kY]hNZ1
 !i103 1
 S1
 R1
+R26
 R27
 R28
-R29
 !i122 3
 R10
 R11
 31
-R23
+R12
+R29
 R30
-R31
 !i113 0
 R15
 R2
@@ -224,7 +224,7 @@ w1771475653
 8../rtl/transmitter/payload_len_cal.sv
 F../rtl/transmitter/payload_len_cal.sv
 !i122 2
-Z32 L0 1 30
+Z31 L0 1 30
 R16
 R11
 r1
@@ -237,64 +237,64 @@ R14
 R15
 R2
 vreceiver
-R26
+R25
 R4
 R5
-DXx4 work 16 receiver_sv_unit 0 22 aOG3CH@FjMfVZdZ^CcSkA1
-R21
+DXx4 work 16 receiver_sv_unit 0 22 k[nP9YL3=@C<XK`BO2iD80
+R6
 R16
 r1
 !s85 0
 !i10b 1
-!s100 d5]7ORNXl4KPKd5:<UPbS1
-IdfVojK2YC1Y0=V:6@Oj532
+!s100 gL@2;O;m1GXad9IC_fSVc2
+IbgIh8oLZ9@VKZ=hP4TE<B1
 !s105 receiver_sv_unit
 S1
 R1
-Z33 w1771471290
-Z34 8../rtl/receiver/receiver.sv
-Z35 F../rtl/receiver/receiver.sv
+Z32 w1773185633
+Z33 8../rtl/receiver/receiver.sv
+Z34 F../rtl/receiver/receiver.sv
 !i122 3
-L0 2 38
+L0 2 39
 R11
 31
-R23
+R12
+R29
 R30
-R31
 !i113 0
 R15
 R2
 Xreceiver_sv_unit
-R26
+R25
 R4
 R5
-R21
-VaOG3CH@FjMfVZdZ^CcSkA1
+R6
+Vk[nP9YL3=@C<XK`BO2iD80
 r1
 !s85 0
 !i10b 1
-!s100 mCj0o]@Ljhb:DB`2RSHk?0
-IaOG3CH@FjMfVZdZ^CcSkA1
+!s100 _HQgSF]li6mLAho=nAlmH0
+Ik[nP9YL3=@C<XK`BO2iD80
 !i103 1
 S1
 R1
+R32
 R33
 R34
-R35
 !i122 3
 R10
 R11
 31
-R23
+R12
+R29
 R30
-R31
 !i113 0
 R15
 R2
 vrx_buffer
-R26
+R25
 R4
-R21
+R6
 !i10b 1
 !s100 b8]?Rc?fbLCz`M7J]]jzl2
 IRkcc<_c:GaMLHn0Yie9d70
@@ -304,77 +304,77 @@ w1771454888
 8../rtl/receiver/rx_buffer.sv
 F../rtl/receiver/rx_buffer.sv
 !i122 3
-Z36 L0 1 64
+Z35 L0 1 64
 R16
 R11
 r1
 !s85 0
 31
-R23
+R12
+R29
 R30
-R31
 !i113 0
 R15
 R2
 vrx_controller
-R26
+R25
 R4
 R5
-DXx4 work 21 rx_controller_sv_unit 0 22 `>YK88LlmYT5kRUF^1zRg0
-R21
+DXx4 work 21 rx_controller_sv_unit 0 22 9D2@eNVQ4M=U9iV2TE_k93
+R6
 R16
 r1
 !s85 0
 !i10b 1
-!s100 OmaXmeiXN`4;;`h]n;:o?3
-ICQ00D;]`C1[NL9eI<BcT^2
+!s100 nK>FflADAZO92@92gNV`i3
+Ig3VF[hEkMGk:^n8Ll`>;G3
 !s105 rx_controller_sv_unit
 S1
 R1
-Z37 w1771471478
-Z38 8../rtl/receiver/rx_controller.sv
-Z39 F../rtl/receiver/rx_controller.sv
+Z36 w1773185689
+Z37 8../rtl/receiver/rx_controller.sv
+Z38 F../rtl/receiver/rx_controller.sv
 !i122 3
-L0 2 85
+L0 2 86
 R11
 31
-R23
+R12
+R29
 R30
-R31
 !i113 0
 R15
 R2
 Xrx_controller_sv_unit
-R26
+R25
 R4
 R5
-R21
-V`>YK88LlmYT5kRUF^1zRg0
+R6
+V9D2@eNVQ4M=U9iV2TE_k93
 r1
 !s85 0
 !i10b 1
-!s100 9`ZbY;`LMnf4R1;14dHUm0
-I`>YK88LlmYT5kRUF^1zRg0
+!s100 1:ab[ZJMo7FAJN22ddz5i2
+I9D2@eNVQ4M=U9iV2TE_k93
 !i103 1
 S1
 R1
+R36
 R37
 R38
-R39
 !i122 3
 R10
 R11
 31
-R23
+R12
+R29
 R30
-R31
 !i113 0
 R15
 R2
 vrx_counter
-R26
+R25
 R4
-R21
+R6
 !i10b 1
 !s100 hDHAX<70YmIQz<_ciS9TY1
 I33JAb6o_NB0M[<YV7iF?42
@@ -384,15 +384,15 @@ w1771455085
 8../rtl/receiver/rx_counter.sv
 F../rtl/receiver/rx_counter.sv
 !i122 3
-R32
+R31
 R16
 R11
 r1
 !s85 0
 31
-R23
+R12
+R29
 R30
-R31
 !i113 0
 R15
 R2
@@ -411,9 +411,9 @@ I3`YOSML>8oJizeeIkn6dP0
 !s105 shift_reg_sv_unit
 S1
 R1
-Z40 w1771349474
-Z41 8../rtl/transmitter/shift_reg.sv
-Z42 F../rtl/transmitter/shift_reg.sv
+Z39 w1771349474
+Z40 8../rtl/transmitter/shift_reg.sv
+Z41 F../rtl/transmitter/shift_reg.sv
 !i122 2
 L0 2 28
 R11
@@ -438,9 +438,9 @@ IkGH^=B<L^2M4E38=7fQZj3
 !i103 1
 S1
 R1
+R39
 R40
 R41
-R42
 !i122 2
 R10
 R11
@@ -455,22 +455,22 @@ vtransmitter
 R3
 R4
 R5
-DXx4 work 19 transmitter_sv_unit 0 22 =fh;;bnVaJ;aB@X0OSWWl1
+DXx4 work 19 transmitter_sv_unit 0 22 H1jKkM;aUlLB=JQlzDoJd0
 R6
 R16
 r1
 !s85 0
 !i10b 1
-!s100 z<YXGDLF>L]2NUHDFfMhe1
-IJaMfn5OhlHGIKMl2S^=DT2
+!s100 :8=N^B1<T0m<Uc=Y7UUmO1
+I8Vk8UO<c?0mWgI08CNFeC3
 !s105 transmitter_sv_unit
 S1
 R1
-Z43 w1771455174
-Z44 8../rtl/transmitter/transmitter.sv
-Z45 F../rtl/transmitter/transmitter.sv
+Z42 w1773185724
+Z43 8../rtl/transmitter/transmitter.sv
+Z44 F../rtl/transmitter/transmitter.sv
 !i122 2
-L0 2 56
+L0 2 57
 R11
 31
 R12
@@ -484,18 +484,18 @@ R3
 R4
 R5
 R6
-V=fh;;bnVaJ;aB@X0OSWWl1
+VH1jKkM;aUlLB=JQlzDoJd0
 r1
 !s85 0
 !i10b 1
-!s100 iXoOmfYVQbNQMWkjX_Xj_0
-I=fh;;bnVaJ;aB@X0OSWWl1
+!s100 CRLeXoJl?@@]`SCT73W841
+IH1jKkM;aUlLB=JQlzDoJd0
 !i103 1
 S1
 R1
+R42
 R43
 R44
-R45
 !i122 2
 R10
 R11
@@ -510,27 +510,27 @@ vtri_mode_ethernet_mac_0_axi_pat_gen
 R20
 R4
 R5
-DXx4 work 43 tri_mode_ethernet_mac_0_axi_pat_gen_sv_unit 0 22 Vc?joHATCHicYGPZzG0I60
+DXx4 work 43 tri_mode_ethernet_mac_0_axi_pat_gen_sv_unit 0 22 P@aU2d58?zZU`?EZXDC`h2
 R21
 R16
 r1
 !s85 0
 !i10b 1
-!s100 C]JbML:kVfbg3`495<UVO0
-I:TGl5H0OWii@gCcjP@J9I0
+!s100 `=U8i[PY][B7Q0zoDgEJm1
+Iaj5>41D41B;[LA?UfVGZX3
 !s105 tri_mode_ethernet_mac_0_axi_pat_gen_sv_unit
 S1
 R1
-Z46 w1771455847
-Z47 8../rtl/tri_mode_ethernet_mac_0_axi_pat_gen.sv
-Z48 F../rtl/tri_mode_ethernet_mac_0_axi_pat_gen.sv
+Z45 w1773185579
+Z46 8../rtl/tri_mode_ethernet_mac_0_axi_pat_gen.sv
+Z47 F../rtl/tri_mode_ethernet_mac_0_axi_pat_gen.sv
 !i122 4
-L0 7 48
+L0 7 51
 R11
 31
+R12
 R23
 R24
-R25
 !i113 0
 R15
 R2
@@ -539,80 +539,80 @@ R20
 R4
 R5
 R21
-VVc?joHATCHicYGPZzG0I60
+VP@aU2d58?zZU`?EZXDC`h2
 r1
 !s85 0
 !i10b 1
-!s100 ;U4hXN3I9[cdF]X6V2E2A0
-IVc?joHATCHicYGPZzG0I60
+!s100 OE^[fYoff^THZMLP0lg0F2
+IP@aU2d58?zZU`?EZXDC`h2
 !i103 1
 S1
 R1
+R45
 R46
 R47
-R48
 !i122 4
 L0 6 0
 R11
 31
+R12
 R23
 R24
-R25
 !i113 0
 R15
 R2
 vtri_mode_ethernet_mac_0_axi_pat_gen_tb
-Z49 2../testbench/tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv
+Z48 2../testbench/tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv
 R4
 R5
-DXx4 work 46 tri_mode_ethernet_mac_0_axi_pat_gen_tb_sv_unit 0 22 _OYWTO5;;Sla>>3zzVdCU3
+DXx4 work 46 tri_mode_ethernet_mac_0_axi_pat_gen_tb_sv_unit 0 22 WEP^kSdeDQKUjZS=V0JPU1
 R6
 R16
 r1
 !s85 0
 !i10b 1
-!s100 DQ;[8BSPUeGD:bk[:BJL40
-InaeN5Y2g6CD1bZZM6[E591
+!s100 S?5SOg4XAg`9]_kdOg>BT0
+I3fTA<03[dO7jDzk1VG==P2
 !s105 tri_mode_ethernet_mac_0_axi_pat_gen_tb_sv_unit
 S1
 R1
-Z50 w1771470580
-Z51 8../testbench/tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv
-Z52 F../testbench/tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv
+Z49 w1773186158
+Z50 8../testbench/tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv
+Z51 F../testbench/tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv
 !i122 1
-L0 2 122
+L0 2 126
 R11
 31
 R12
-Z53 !s107 ../testbench/tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv|
-Z54 !s90 -work|work|-sv|-stats=none|../testbench/tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv|
+Z52 !s107 ../testbench/tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv|
+Z53 !s90 -work|work|-sv|-stats=none|../testbench/tri_mode_ethernet_mac_0_axi_pat_gen_tb.sv|
 !i113 0
 R15
 R2
 Xtri_mode_ethernet_mac_0_axi_pat_gen_tb_sv_unit
-R49
+R48
 R4
 R5
 R6
-V_OYWTO5;;Sla>>3zzVdCU3
+VWEP^kSdeDQKUjZS=V0JPU1
 r1
 !s85 0
 !i10b 1
-!s100 a]zmbhB6:?kU4Cf7`EaGO2
-I_OYWTO5;;Sla>>3zzVdCU3
+!s100 95Hn=T[bbf2F2OKh[NMfM2
+IWEP^kSdeDQKUjZS=V0JPU1
 !i103 1
 S1
 R1
+R49
 R50
 R51
-R52
 !i122 1
 R10
 R11
 31
 R12
+R52
 R53
-R54
 !i113 0
 R15
 R2
@@ -657,7 +657,7 @@ w1771454965
 8../rtl/transmitter/tx_buffer.sv
 F../rtl/transmitter/tx_buffer.sv
 !i122 2
-R36
+R35
 R16
 R11
 r1
@@ -672,7 +672,7 @@ R2
 vtx_counter
 R3
 R4
-R21
+R6
 !i10b 1
 !s100 ?[e:ChFz36QoC2dY9>Dmg1
 Im:aHWTY4ldYZAKA_V7OW^2

@@ -58,7 +58,6 @@ always_comb begin
     rx_header_valid = 1'b0;
     case (current_state) 
     IDLE: begin
-            header_en      = 1'b0;
             count_en       = 1'b0;
             brx_valid       = 1'b0;
             rx_header_valid = 1'b1;

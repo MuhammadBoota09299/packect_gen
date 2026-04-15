@@ -11,6 +11,8 @@ logic [7:0] tdata;
 logic       tvalid;
 logic       tlast;
 logic       tready;
+logic       enable;
+logic       pat_gen_sel;
 
 
 tri_mode_ethernet_mac_0_axi_pat_gen U_tri_mode_ethernet_mac_0_axi_pat_gen(
@@ -34,6 +36,7 @@ end
 task automatic transfer(input logic [7:0] data);
     r_data=data;
     r_valid=1'b1;
+    enable=1'b1;
     @(posedge clk);
     while (!r_ready) begin
         @(posedge clk);
@@ -59,6 +62,7 @@ task automatic transfer_of_frame(input frame test_frame, input int bytes);
     end
 
     r_valid=1'b0;
+    enable=1'b0;
     r_last=1'b0;
 endtask //automatic
 
